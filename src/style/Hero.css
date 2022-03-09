@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  background-image: url("../assets/hero.png");
+  height: 380px;
+  width: 1200px;
+  left: 24px;
+  top: 24px;
+  border-radius: 32px;
+}
+
+.hero-text {
+  margin-left: 40px;
+  color: #ffffff;
+}
+
+.hero-text p {
+  margin-top: 20px;
+}
