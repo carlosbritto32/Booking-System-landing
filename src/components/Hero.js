@@ -1,14 +1,17 @@
 import React from "react";
 import "../style/Hero.css";
-import { SearchBar } from "./SearchBar";
+import { Header } from "./Header";
 
 const Hero = () => {
   return (
-    <div className="hero-image">
-      <SearchBar />
-      <div className="hero-text">
-        <h2>Encuentra los mejores</h2>
-        <h2> lugares para visitar</h2>
+    <div className="hero-container">
+      <Header />
+      <div className="hero--text-container">
+        <h1>
+          Encuentra los mejores <br />
+          lugares para visitar
+        </h1>
+        <br />
         <p>Este es un texto cualquiera haha</p>
       </div>
     </div>
