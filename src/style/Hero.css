@@ -8,7 +8,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
   height: 470px;
   background: url(../assets/hero.png);
@@ -18,6 +17,9 @@
 .hero--text-container {
   width: 424px;
   height: 131px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 40px;
   color: #ffffff;
 }

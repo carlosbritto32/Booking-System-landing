@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  width: 1300px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 60px;
+}

@@ -5,7 +5,7 @@ const User = () => {
   return (
     <div className="user--experience-container">
       <p>Hazte anfitrion</p>
-      <div className="user--logo-container"></div>
+      <div className="user--img-container"></div>
     </div>
   );
 };
