@@ -1,9 +1,11 @@
 import { Hero } from "../components/Hero";
+import { MostVisited } from "../components/MostVisited";
 
 function App() {
   return (
     <div className="App">
-      <Hero></Hero>
+      <Hero />
+      <MostVisited />
     </div>
   );
 }

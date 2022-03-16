@@ -1,0 +1,28 @@
+.card {
+  margin: 0 20px;
+  width: 380px;
+  height: 360px;
+  border-radius: 34px;
+  background-size: cover;
+  background: no-repeat;
+}
+
+.card p {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.malta {
+  background: url(../assets/malta.png);
+}
+
+.peru {
+  background: url(../assets/peru.png);
+}
+
+.mexico {
+  background: url(../assets/mexico.png);
+}
