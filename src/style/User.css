@@ -20,6 +20,11 @@
 .user--img-container {
   width: 54px;
   height: 54px;
-  background: url(../assets/Foto\ de\ perfil.png);
+  background-color: #1572a1;
   border-radius: 50%;
+}
+
+.user--img-container img {
+  margin-left: 6px;
+  margin-top: 6px;
 }
