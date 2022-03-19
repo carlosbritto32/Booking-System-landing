@@ -1,14 +1,16 @@
 import { Footer } from "../components/Footer";
 import { Hero } from "../components/Hero";
 import { MostVisited } from "../components/MostVisited";
+import { Layout } from "../components/Layout";
+import "../style/global.css";
 
 function App() {
   return (
-    <div className="App">
+    <Layout>
       <Hero />
       <MostVisited />
       <Footer />
-    </div>
+    </Layout>
   );
 }
 
