@@ -28,7 +28,12 @@
 .search__container input {
   border: none;
   cursor: pointer;
+  outline: none;
 }
+
+/* .search__container label {
+  cursor: pointer;
+} */
 
 .search__container .search_location {
   display: flex;
@@ -71,4 +76,5 @@
   background-color: var(--color-main);
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
